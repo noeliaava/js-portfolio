@@ -964,7 +964,7 @@ textarea:focus {
         width: 100px;
     }
 
-    card-img-back {
+    .card-img-back {
         width: 80%;
     }
     .card-desc h4 {
