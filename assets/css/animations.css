@@ -1,0 +1,202 @@
+/* ---- Start Header Animations ---- */
+
+@keyframes v-slide {
+    0% {
+        margin-left: 0;
+        opacity: 0.2;
+    }
+    10% {
+        visibility: visible;
+    }
+    15%{
+        opacity: 1;
+    }
+    50% {
+        margin-left: 14em;
+    }
+    70% {
+        opacity: 0.9;
+    }
+    80% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 0.1;
+        margin-left: 80em;
+    }    
+}
+
+@keyframes v-slide-2 {
+    0% {
+        margin-left: 0;
+        opacity: 0.2;
+    }
+    10% {
+        visibility: visible;
+    }
+    15%{
+        opacity: 1;
+    }
+    50% {
+        margin-left: 14em;
+    }
+    70% {
+        opacity: 0.9;
+    }
+    80% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 0.1;
+        margin-left: 50em;
+    }    
+}
+
+@keyframes across-1 {
+    0% {
+        margin-top: 0;
+        margin-left: 1em;
+        opacity: 0.8;
+    }
+    100%{
+        margin-top: 36em;
+        margin-left: 56em;
+        opacity: 0;
+    }
+}
+
+@keyframes across-2 {
+    0% {
+        margin-top: 0;
+        margin-left: 25em;
+        opacity: 0.8;
+    }
+    30% {
+        margin-left: 6em;
+        margin-top: 15em;
+    } 
+    100%{
+        margin-top: 20em;
+        margin-left: 26em;
+        opacity: 0;
+    }
+}
+
+@keyframes across-3 {
+    0% {
+        margin-top: 0;
+        margin-left: 30em;
+        opacity: 0.8;
+    }
+    15% {
+        margin-left: 15em;
+        margin-top: 24em;
+    }
+    45% {
+        margin-left: 55em;
+        margin-top: 20em;
+    }
+    55% {
+        margin-left: 36em;
+        margin-top: 33em;
+        opacity: 0.8;
+    }
+    90% {
+        opacity: 0.4;
+    } 
+    100%{
+        margin-top: 26em;
+        margin-left: 46em;
+        opacity: 0;
+    }
+}
+
+@keyframes across-4 {
+    0% {
+        margin-top: 0;
+        margin-left: 40em;
+        opacity: 0.8;
+    }
+    15% {
+        margin-left: 55em;
+        margin-top: 14em;
+    }
+    45% {
+        margin-left: 55em;
+        margin-top: 20em;
+    }
+    55% {
+        margin-left: 36em;
+        margin-top: 33em;
+        opacity: 0.8;
+    }
+    90% {
+        opacity: 0.4;
+    } 
+    100%{
+        margin-top: 26em;
+        margin-left: 46em;
+        opacity: 0;
+    }
+}
+
+@keyframes across-5 {
+    0% {
+        margin-top: 10em;
+        margin-left: 30em;
+        opacity: 0.8;
+    }
+    15% {
+        margin-left: 45em;
+        margin-top: 24em;
+    }
+    45% {
+        margin-left: 65em;
+        margin-top: 30em;
+    }
+    55% {
+        margin-left: 36em;
+        margin-top: 33em;
+        opacity: 0.8;
+    }
+    90% {
+        opacity: 0.4;
+    } 
+    100%{
+        margin-top: 6em;
+        margin-left: 56em;
+        opacity: 0;
+    }
+}
+
+/* ---- End Header Animations ---- */
+
+/* ---- Start Titles Animation ---- */ 
+
+@keyframes h-slide {
+    0% {
+        margin-left: 0;
+    }
+    70% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0.1;
+        margin-left: 55em;
+    }
+}
+
+@keyframes h-slide-2 {
+    0% {
+        margin-left: 0;
+    }
+    70% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0.1;
+        margin-left: 35em;
+    }
+}
+
+/* ---- End Titles Animation ---- */
