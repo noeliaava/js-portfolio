@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    
 
     <div class="cont-icon">
         <img id="ds-1" class="ds-icon" src="assets/img/death-star-white.svg" alt="Death Start Icon">
@@ -27,12 +28,12 @@
         <img id="ds-5" class="ds-icon" src="assets/img/death-star-white.svg" alt="Death Start Icon">
     </div>
     <div class="cont-cv-btn">
-        <a href="#"><button class="cv-btn" type="submit">CV</button></a>
+        <a target="blank" href="assets/docs/CV-MaNoeliaAvalos-ES.pdf"><button class="cv-btn" type="submit">CV</button></a>
     </div>
     <div class="container-banner">
         <div class="cont-banner-btn flex-col">
             <img id="ds-icon-btn" class="ds-icon" src="assets/img/death-star-white.svg" alt="Death Start Icon">
-            <a href="#"><button class="banner-button">THIS IS THE WAY</button></a>
+            <a href="#about"><button class="banner-button">THIS IS THE WAY</button></a>
         </div>
         
     </div>
@@ -62,7 +63,7 @@
 <!-- About starts here -->
 
     <section class="container" id="about">
-        <div class="heading">
+        <div class="heading" id="head1">
             <img class="ds-icon" src="assets/img/death-star-blue.svg" alt="Death Start Icon">
             <h1>Sobre mí</h1>
         </div>
@@ -81,49 +82,51 @@
                     conocimiento y la realización de proyectos novedosos y exitosos.</p>
             </div>
         </div>
-        <div class="grid">
-            <div class="card">
-                <div class="card-head flex-col">
-                    <img class="card-img" src="assets/img/web-desing-ico.svg" alt="Icono diseño web">
-                    <h3>Diseñadora Web</h3>
-                </div>
-                <div class="card-body flex-col">
-                    <div class="card-desc flex-col">
-                        <h4>Tecnologías</h4>
-                        <p class="card-p">HTML 5 | CSS 3</p>
-                        <p class="card-p">Bootstrap | SASS</p>
-                        <p class="card-p">Javascript</p>
-                        <p class="card-p">WordPress</p>
+        <div class="container-grid">
+            <div class="grid">
+                <div class="card">
+                    <div class="card-head flex-col">
+                        <img class="card-img" src="assets/img/web-desing-ico.svg" alt="Icono diseño web">
+                        <h3>Diseñadora Web</h3>
+                    </div>
+                    <div class="card-body flex-col">
+                        <div class="card-desc flex-col">
+                            <h4>Tecnologías</h4>
+                            <p class="card-p">HTML 5 | CSS 3</p>
+                            <p class="card-p">Bootstrap | SASS</p>
+                            <p class="card-p">Javascript</p>
+                            <p class="card-p">WordPress</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-head flex-col">
-                    <img class="card-img" src="assets/img/tutoria-ico.svg" alt="Icono tutoría">
-                    <h3>Tutora</h3>
-                </div>
-                <div class="card-body flex-col">
-                    <div class="card-desc flex-col">
-                        <h4>Cursos</h4>
-                        <p class="card-p">Tutoría de camadas de:</p>
-                        <p class="card-p">Desarrollo Web</p>
-                        <p class="card-p">o Maquetado</p>
-                        <p class="card-p">Data Analytics</p>
+                <div class="card">
+                    <div class="card-head flex-col">
+                        <img class="card-img" src="assets/img/tutoria-ico.svg" alt="Icono tutoría">
+                        <h3>Tutora DW | DA</h3>
+                    </div>
+                    <div class="card-body flex-col">
+                        <div class="card-desc flex-col">
+                            <h4>Cursos</h4>
+                            <p class="card-p">Tutoría de camadas de:</p>
+                            <p class="card-p">Desarrollo Web</p>
+                            <p class="card-p">o Maquetado</p>
+                            <p class="card-p">Data Analytics</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-head flex-col">
-                    <img class="card-img" src="assets/img/data-analytics-ico.svg" alt="Icono datos">
-                    <h3>Data Engineer</h3>
-                </div>
-                <div class="card-body flex-col">
-                    <div class="card-desc flex-col">
-                        <h4>Tecnologías</h4>
-                        <p class="card-p">PL SQL | TSQL</p>
-                        <p class="card-p">Apache Superset</p>
-                        <p class="card-p">Tableau</p>
-                        <p class="card-p">Pentaho PDI</p>
+                <div class="card">
+                    <div class="card-head flex-col">
+                        <img class="card-img" src="assets/img/data-analytics-ico.svg" alt="Icono datos">
+                        <h3>Data Engineer</h3>
+                    </div>
+                    <div class="card-body flex-col">
+                        <div class="card-desc flex-col">
+                            <h4>Tecnologías</h4>
+                            <p class="card-p">PL SQL | TSQL</p>
+                            <p class="card-p">Apache Superset</p>
+                            <p class="card-p">Tableau</p>
+                            <p class="card-p">Pentaho PDI</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -225,55 +228,33 @@
     <div class="flex-row col-xs">
         <div class="cont-cert">
             <div class="hover">
-                <div class="card">
+                <div class="card" id="card-1">
                     <div class="card-front">
                         <div class="card-head flex-col">
-                            <img class="card-img" src="assets/img/webdev-ico.svg" alt="Icono tutoría">
+                            <img class="card-img" id="card-front-img" src="assets/img/webdev-ico.svg" alt="Icono Diseño Web">
                         </div>
                         <div class="card-body flex-col">
                             <div class="card-desc flex-col">
-                                <h3>Diseño Web</h3>
-                                <h4>NUCBA | Diciembre 2020</h4>
-                                <p class="card-p">
-                                    Diseño web o maquetado de sitios web responsive. Uso de HTML5, CSS3, Bootstrap, Javascript.
-                                    El principal papel de un diseñador web es encontrar el equilibrio perfecto entre 
-                                    la estética y la funcionalidad del sitio que está creando.
-                                    El diseñador web se encarga de la apariencia del sitio y, entre 
-                                    sus funciones, está determinar el diseño, la gama de colores y estilo del sitio.
+                                <h3 id="card-title"></h3>
+                                <h4 id="card-info"></h4>
+                                <p class="card-p" id="card-p">
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="card-back">
                         <div class="card-head flex-col">
-                            <img class="card-img-back" src="assets/img/cert-dis-web.png" alt="Certificado Diseño Web NUCBA">
+                            <img class="card-img-back" id="card-back-img" src="assets/img/cert-dis-web.png" alt="Certificado Diseño Web NUCBA">
                         </div>    
                     </div>
                 </div>
             </div>
-        </div> 
-            <!-- <div class="card">
-                <div class="card-head flex-col">
-                    <img class="card-img" src="assets/img/webdev-ico.svg" alt="Icono tutoría">
-                </div>
-                <div class="card-body flex-col">
-                    <div class="card-desc flex-col">
-                        <h3>Desarrollo Web</h3>
-                        <h4>Coderhouse | Agosto 2020</h4>
-                        <p class="card-p">El front-end de un sitio web es la parte donde los usuarios interactúan. 
-                            Los desarrolladores front-end son responsables por crear la interfaz visual sobre la cuál 
-                            los usuarios experimentan un producto. Principalmente lo hacen a través de HTML (para 
-                            definir la estructura de los elementos), CSS (para definir los estlos) y Javascript 
-                            (para crear interacción y lógica).</p>
-                    </div>
-                </div>
-            </div>    -->
-    
+        </div>     
         <div class="cert-buttons flex-col">
-            <a href="#"><button class="banner-button cert-btn">Diseño Web</button></a>
-            <a href="#"><button class="banner-button cert-btn">Desarrollo Web</button></a>
-            <a href="#"><button class="banner-button cert-btn">Diseño UX/UI</button></a>
-            <a href="#"><button class="banner-button cert-btn">Inglés</button></a>
+            <button class="banner-button cert-btn" id="cert_btn1">Diseño Web</button>
+            <button class="banner-button cert-btn" id="cert_btn2">Desarrollo Web</button>
+            <button class="banner-button cert-btn" id="cert_btn3">Diseño UX/UI</button>
+            <button class="banner-button cert-btn" id="cert_btn4">Inglés</button>
         </div>
         
     </div>
@@ -283,7 +264,7 @@
 <!-- Certifications ends here -->
 
 <!-- Contact starts here -->
-<section class="container" id="contact">
+<!-- <section class="container" id="contact">
     <div class="heading">
         <img class="ds-icon" src="assets/img/death-star-blue.svg" alt="Death Start Icon">
         <h1>Contacto</h1>
@@ -337,19 +318,21 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Contact ends here -->
 
-<footer class="footer flex-col">
+<footer class="footer flex-col" id="contact">
     <div class="cont-rss flex-row">
-        <a target="blank" href="https://github.com/noeliaava/formal-portfolio"><img class="footer-ico" src="assets/img/github-green.svg" alt="Github Icon"></a>
+        <a target="blank" href="https://github.com/noeliaava"><img class="footer-ico" src="assets/img/github-green.svg" alt="Github Icon"></a>
         <a target="blank" href="https://www.linkedin.com/in/m-noelia-avalos/"><img class="footer-ico" src="assets/img/linkedin-green.svg" alt="Github Icon"></a>
         <a target="blank" href="mailto:m.noelia.avalos@gmail.com"><img class="footer-ico" src="assets/img/email-green.svg" alt="Github Icon"></a>
     </div>
     <p style="font-size: 16px;color:white; padding-left: 5px;">Made by Noelia Avalos © 2020.</p>
-    <p style="font-size: 9px;color:darkgrey; padding-left: 5px;">Icons made by <a style="color:darkgrey" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a style="color: darkgrey" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+    <p style="margin-bottom: 5px; font-size: 9px;color:darkgrey; padding-left: 5px;">Icons made by <a style="color:darkgrey" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a style="color: darkgrey" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
     </p>
 </footer>
+
+<script type="text/javascript" src="assets/js/index.js"></script>
 
 </body>
 
