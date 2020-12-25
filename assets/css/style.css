@@ -237,6 +237,10 @@ nav {
     width: 70%;
 }
 
+.nav-link {
+    
+}
+
 nav a {
     font-size: 1em;
     color: rgb(204, 204, 204);
@@ -651,6 +655,7 @@ a:hover .footer-ico {
     .nav-bg {
         display: none;
     }
+
     .nav-xs img {
         width: 40px; 
         position: absolute;
