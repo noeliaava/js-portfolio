@@ -895,7 +895,9 @@ a:hover .footer-ico {
         width: 70%;
         margin-left: 5%;
     }
-
+    .cont-cert .hover .card {
+        height: 85vh;
+    }
     .card-front {
         padding: 25px 30px;
     }
